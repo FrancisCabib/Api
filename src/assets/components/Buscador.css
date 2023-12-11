@@ -1,0 +1,56 @@
+.buscador-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-title {
+  margin-bottom: 10px;
+}
+
+.search-input,
+.level-filter {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 20px;
+ 
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-info {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.card-level {
+  font-size: 0.9em;
+}
+
